@@ -1,0 +1,30 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="css/index.css">  
+    <title>PORTFOLIO</title>  
+</head>  
+<body>  
+    <header>  
+        <div class="perfil">  
+            <img src="imagenes/fotoperfil.jpg" alt="nombre" class="foto-perfil">  
+            <h1>Silvano Ruata Maria Belen</h1>  
+            
+        </div>  
+        <nav>  
+            <ul>  
+                <li><a href="index.html">Inicio</a></li>  
+                <li><a href="sobreMi.html"> Sobre Mí</a></li>  
+                <li><a href="habilidades.html"> Habilidades</a></li>  
+                <li><a href="proyectos.html"> Proyectos</a></li>  
+                <li><a href="contacto.html"> Contacto</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+    <main>  
+      
+    </main>  
+</body>  
+</html>
