@@ -1,0 +1,90 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="Bibliotecas/CSS/all.min.css">  
+    <link rel="stylesheet" href="css/sobreMi.css">  
+    <title>Sobre Mí</title>  
+</head>  
+<body>  
+    <header>  
+        <div class="perfil">  
+            <img src="imagenes/fotoperfil.jpeg" alt="Foto de Perfil" class="foto-perfil">  
+            <h1>Silvano Ruata Maria Belen</h1>  
+            <h3>Científica de datos. Especialista en Inteligencia Empresarial</h3>  
+            <div class="redes-sociales">  
+                <a href="https://www.linkedin.com/in/maria-belen-silvano-ruata-95286330b" target="_blank" aria-label="LinkedIn">  
+                    <i class="fab fa-linkedin icono-redes"></i>  
+                </a>  
+                <a href="https://github.com/silvanoruatabelen1" target="_blank" aria-label="GitHub">  
+                    <i class="fab fa-github icono-redes"></i>  
+                </a>  
+            </div>  
+        </div>  
+        <nav>  
+            <ul>  
+                <li><a href="index.html"><i class="fas fa-home icono-nav"></i> Inicio</a></li>  
+                <li><a href="sobreMi.html"><i class="fas fa-user icono-nav"></i> Sobre Mí</a></li>  
+                <li><a href="habilidades.html"><i class="fas fa-check-square icono-nav"></i> Habilidades</a></li>  
+                <li><a href="proyectos.html"><i class="fas fa-briefcase icono-nav"></i> Proyectos</a></li>  
+                <li><a href="contacto.html"><i class="fas fa-envelope icono-nav"></i> Contacto</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+    <input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">  
+    <label for="toggle-checkbox" class="toggle-label">  
+        <i class="fa fa-moon"></i>  
+        <i class="fa fa-sun" style="display:none;"></i>  
+    </label>  
+    <main>  
+        <section class="educacion">  
+            <h3>Educación</h3>  
+            <div class="item">  
+                <h4>Ingenieria en Sistemas infomrmacion</h4>  
+                <p>2022 - Actualidad <br>UTN-FRSFCO</p>  
+            </div>  
+            <div class="item">  
+                <h4>curso "Argentina Programa 4.0"</h4>  
+                <p>2022<br></p>  
+            </div>  
+            <div class="item">  
+                <h4>Curso de Análisis de Datos con Python</h4>  
+                <p>2022 - 2023 <br>Coursera</p>  
+                <p>Aprendí a utilizar Python para análisis de datos, incluyendo la manipulación de datos con pandas, visualización con Matplotlib y análisis estadístico.</p>
+            </div>  
+            <div class="item">  
+                <h4>Certificación en Business Intelligence (BI)</h4>  
+                <p>2022 - 2023<br> Udacity </p>  
+                <p>Adquirí habilidades en herramientas y técnicas de BI, incluyendo la creación de dashboards, análisis de KPIs y la interpretación de datos para la toma de decisiones.</p>
+            </div>
+            <div class="item text-center">  
+                <a href="https://drive.google.com/drive/folders/1Sqz0bI6RNDcZngbSAWSJDUNOL4hosa92?usp=drive_link" class="certificados-button">Certificados</a>  
+            </div>  
+        </section>  
+        <section class="experiencia">  
+            <h3>Experiencia Laboral</h3>  
+            <div class="item">  
+                <h4>Analista de Datos</h4>  
+                <p>2023 - Actualidad</p>  
+                <p>Encargada de recolectar, limpiar y analizar grandes volúmenes de datos para generar informes detallados en el molino de la localidad de San Francisco</p>  
+            </div>
+            <div class="item">  
+                <h4>Consultora de Inteligencia Empresarial</h4>  
+                <p>2023 - Actualidad </p>  
+                <p>Trabajé con equipos de desarrollo para crear soluciones de BI personalizadas, incluyendo dashboards interactivos y reportes automáticos en el molino de la localidad de San Francisco.</p>  
+            </div>
+        
+              
+        </section>  
+
+       
+    </main>  
+    <script>  
+        const toggleCheckbox = document.getElementById('toggle-checkbox');  
+        toggleCheckbox.addEventListener('change', () => {  
+            document.body.classList.toggle('light-mode', toggleCheckbox.checked);  
+        });  
+    </script>  
+</body>  
+</html>

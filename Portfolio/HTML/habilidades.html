@@ -1,0 +1,101 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="Bibliotecas/CSS/all.min.css">  
+    <link rel="stylesheet" href="css/habilidades.css">  
+    <title>Habilidades</title>  
+</head>  
+<body>
+    <header>  
+        <div class="perfil">  
+            <img src="imagenes/fotoperfil.jpeg" alt="Foto de Perfil" class="foto-perfil">  
+            <h1>Silvano Ruata Maria Belen</h1>  
+            <h3>Científica de datos. Especialista en Inteligencia Empresarial</h3>  
+            <div class="redes-sociales">  
+                <a href="https://www.linkedin.com/in/maria-belen-silvano-ruata-95286330b" target="_blank" aria-label="LinkedIn">  
+                    <i class="fab fa-linkedin icono-redes"></i>  
+                </a>  
+                <a href="https://github.com/silvanoruatabelen1" target="_blank" aria-label="GitHub">  
+                    <i class="fab fa-github icono-redes"></i>  
+                </a>  
+            </div>  
+        </div>  
+        <nav>  
+            <ul>  
+                <li><a href="index.html"><i class="fas fa-home icono-nav"></i> Inicio</a></li>  
+                <li><a href="sobreMi.html"><i class="fas fa-user icono-nav"></i> Sobre Mí</a></li>  
+                <li><a href="habilidades.html"><i class="fas fa-check-square icono-nav"></i> Habilidades</a></li>  
+                <li><a href="proyectos.html"><i class="fas fa-briefcase icono-nav"></i> Proyectos</a></li>  
+                <li><a href="contacto.html"><i class="fas fa-envelope icono-nav"></i> Contacto</a></li>  
+            </ul>  
+        </nav>  
+    </header> 
+    <input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">  
+    <label for="toggle-checkbox" class="toggle-label">  
+        <i class="fa fa-moon"></i>  
+        <i class="fa fa-sun" style="display:none;"></i>  
+    </label>   
+    <main>  
+        <section class="habilidades-container">  
+            <div class="habilidades-tecnicas">  
+                <h3>Habilidades Técnicas</h3>  
+                <div class="habilidad">  
+                    <img src="imagenes/html.png" alt="HTML" />  
+                    <span>HTML</span>  
+                </div>  
+                <div class="habilidad">  
+                    <img src="imagenes/css.png" alt="CSS" />  
+                    <span>CSS</span>  
+                </div>  
+                <div class="habilidad">  
+                    <img src="imagenes/javascript.png" alt="JavaScript" />  
+                    <span>JavaScript</span>  
+                </div>  
+                <div class="habilidad">  
+                    <img src="imagenes/git.png" alt="Git" />  
+                    <span>Git</span>  
+                </div>  
+                <div class="habilidad">  
+                    <img src="imagenes/python.png" alt="Python" />  
+                    <span>Python</span>  
+                </div>  
+                <div class="habilidad">  
+                    <img src="imagenes/c.png" alt="C" />  
+                    <span>C</span>  
+                </div>  
+                <div class="habilidad">  
+                    <img src="imagenes/react.png" alt="React" />  
+                    <span>React</span>  
+                </div>  
+            </div>  
+            <div class="idiomas">  
+                <h3>Idiomas</h3>  
+                <ul>  
+                    <li>Inglés - Nivel avanzado, Certificado First (FCE)</li>  
+                    <li>Italiano - Nivel avanzado, Certificado PLIDA B1</li>  
+                    <li>Portugués - Nivel Básico</li>  
+                    <li>Latín - Nivel Básico</li>  
+                </ul>  
+            </div>  
+            <div class="habilidades-blandas">  
+                <h3>Habilidades Blandas</h3>  
+                <ul>  
+                    <li>Proactivo</li>  
+                    <li>Colaborativo</li>  
+                    <li>Eficiente</li>  
+                    <li>Resolutivo</li>  
+                </ul>  
+            </div>  
+        </section>
+       
+    </main>  
+    <script>  
+        const toggleCheckbox = document.getElementById('toggle-checkbox');  
+        toggleCheckbox.addEventListener('change', () => {  
+            document.body.classList.toggle('light-mode', toggleCheckbox.checked);  
+        });  
+    </script>  
+</body>  
+</html>
